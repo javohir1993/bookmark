@@ -3,42 +3,149 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>23-dars</title>
-  <link rel="stylesheet" href="css/styles.min.css">
+  <title>Classwork</title>
+  <!-- <link rel="stylesheet" href="css/styles-min.css"> -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-  <div class="container">
+  <!-- HEADER -->
 
-    <table class="table-smartphone">
-      <h2>Smartfonning umumiy xususiyatlari</h2>
-      <caption class="visually-hidden">Smartfonning umumiy xususiyatlari</caption>
-      <thead class="heading">
-        <tr class="row">
-          <th class="heading-item">Barmoq izi</th>
-          <th class="heading-item">Sim karta va turi</th>
-          <th class="heading-item">Versiyasi</th>
-          <th class="heading-item">Rangi</th>
-          <th class="heading-item">O'lchami</th>
-          <th class="heading-item">To'liq to'plamda</th>
-        </tr>
-      </thead>
+  <header class="site-header">
 
-      <tbody class="data">
-        <tr class="row">
-          <td class="data-item">Bor</td>
-          <td class="data-item">2ta (Nano Sim)</td>
-          <td class="data-item">Android 10.0</td>
-          <td class="data-item">Qora</td>
-          <td class="data-item">76.3x159.2x8.7 mm</td>
-          <td class="data-item">Smartfon quvvatlagich, Kabel Type-C, Quloqchinlar, Kartani chiqarish vositasi, Lorem ipsum dolor sit amet.</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="container container-header">
+      <a class="site-logo-link" href="#"><img class="site-logo" src="img/logo-bookmarks.svg" alt="logo Bookmarks" width="148" height="25"></a>
 
-  </div>
+      <nav class="sitenav">
+        <ul class="sitenav-list">
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="#">FEATURES</a>
+          </li>
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="#">PRICING</a>
+          </li>
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </nav><!-- sitenav -->
+
+      <a class="button-login" href="#">LOGIN</a>
+    </div><!-- container -->
+
+  </header><!-- site-header -->
+
+
+  <!-- MAIN -->
+
+  <main>
+
+    <section class="site-demo">
+      <div class="container">
+        <div class="bookmark">
+
+          <h2 class="bookmark-title">A Simple Bookmark Manager</h2>
+          <p class="bookmark-text">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+
+          <a class="bookmark-link-google" href="#">Get in on Chrome</a>
+          <a class="bookmark-link-firefox" href="#">Get in on Firefox</a>
+
+        </div><!-- bookmark -->
+      </div><!-- container -->
+    </section><!-- site-demo -->
+
+    <div class="features">
+        <div class="features-info">
+          <h2 class="features-title">Features</h2>
+          <p class="features-text">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+        </div>
+
+        <ul class="features-list">
+          <li class="features-item features-item-active">
+            <a class="features-link features-link-active" href="#">Simple Bookmarking</a>
+          </li>
+          <li class="features-item">
+            <a class="features-link" href="#">Speedy Searching</a>
+          </li>
+          <li class="features-item">
+            <a class="features-link" href="#">Easy Sharing</a>
+          </li>
+        </ul>
+
+    </div><!-- features -->
+
+    <section class="features-demo">
+      <div class="container">
+        <div class="features-demo-discription">
+          <h3 class="features-demo-title">Bookmark in one click</h3>
+          <p class="features-demo-text">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+
+          <a class="more-info-link" href="#">More info</a>
+        </div><!-- features-demo-discription -->
+      </div><!-- container -->
+    </section><!-- features-demo -->
+
+    <section class="download">
+      <div class="container">
+        <div class="download-heading">
+          <h2 class="download-title">Download the extension</h2>
+          <p class="download-description">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+        </div><!-- download-heading -->
+
+        <ul class="download-list">
+          <li class="download-item download-item-chrome">
+            <h3 class="download-item-title">Add to Chrome</h3>
+            <p class="download-item-text">Minimum version 62</p>
+            <hr class="doirachalar">
+            <a class="download-link" href="#">Add & Install Extension</a>
+          </li>
+          <li class="download-item download-item-firefox">
+            <h3 class="download-item-title">Add to Firefox</h3>
+            <p class="download-item-text">Minimum version 55</p>
+            <hr class="doirachalar">
+            <a class="download-link" href="#">Add & Install Extension</a>
+          </li>
+          <li class="download-item download-item-opera">
+            <h3 class="download-item-title">Add to Opera</h3>
+            <p class="download-item-text">Minimum version 46</p>
+            <hr class="doirachalar">
+            <a class="download-link" href="#">Add & Install Extension</a>
+          </li>
+        </ul>
+      </div><!-- container -->
+    </section><!-- download -->
+
+    <div class="container">
+      <section class="questions">
+        <h2 class="questions-title">Frequently Asked Questions</h2>
+        <p class="questions-text">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+
+        <ol class="questions-list">
+          <hr class="divider">
+          <li class="questions-item">
+            <button class="questions-button">What is Bookmark?</button>
+          </li>
+          <hr class="divider">
+          <li class="questions-item">
+            <button class="questions-button">How can I request a new browser?</button>
+          </li>
+          <hr class="divider">
+          <li class="questions-item">
+            <button class="questions-button">Is there a mobile app?</button>
+          </li>
+          <hr class="divider">
+          <li class="questions-item">
+            <button class="questions-button">What about other Chromium browsers?</button>
+          </li>
+          <hr class="divider">
+        </ol>
+
+        <a class="more-info-link" href="#">More info</a>
+      </section><!-- questions -->
+    </div><!-- container -->
+
+  </main>
 
 </body>
 </html>
